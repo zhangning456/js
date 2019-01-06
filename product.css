@@ -1,0 +1,295 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+
+	text-decoration: none;
+}
+.out{
+	background: #f6f5f4;
+
+
+	width: 100%;
+}
+.head{
+	height: 140px;
+	width: 1180px;
+	margin: 0 auto;
+}
+.top{
+	color: #9a9791;
+	font-size: 11px;
+	padding-top:8px;
+}
+.logo3{
+	margin: 21px 108px 24px 0px;
+	float: left;
+}
+.right_addlo{
+	float: right;
+	width: 715px;
+	height: 20px;
+}
+.top_QQ_lo{
+	float: left;
+	background-repeat:no-repeat;
+	width:19px;
+	height:20px; 
+	display: block;
+	margin-right:18px; 
+}
+.top_text{
+	float: left;
+	height: 20px;
+	line-height:20px; 
+	display: block;
+	margin-right:18px; 
+}
+.search{
+	background:#ff4d04;
+	height: 42px;
+	width: 585px;
+	margin: 31px 80px 0px 0px;
+	float: left;
+	border-radius: 3px;
+}
+.input1{
+	width:499px;
+	height: 14px;
+	border-radius: 3px;
+	border:3px  #ff4d04 solid;
+	padding:11px 0px;
+	font-size: 12px;
+}
+.button1{
+	font-size: 15px;
+	color: white;
+	background-color: #ff4d04;
+	text-align: center;
+	line-height: 36px;
+	width: 75px;
+	border:none;
+}
+.tel{
+	width: 84px;
+	height: 39px;
+	border: 1px #e6e5e2 solid;
+	border-radius: 3px;
+	color: #9a9791;
+	font-size: 11px;
+	float: left;
+	margin-top: 31px;
+	text-align: center;
+}
+.head ul {
+    float: left;
+    margin-top: 10px;
+}
+.head li{
+	float: left;
+    font-size: 12px;
+    padding: 0 8px;
+    border-right: 1px solid #ebe7e7;
+}
+.head ul a{
+	color: #666560;
+}
+
+.up{
+	width: 1180px;
+	height: 670px;
+	margin: 0 auto;
+}
+.index{
+	width: 1180px;
+	height: 40px;
+	margin: 0 auto;
+}
+.index ul {
+	width: 1016px;
+	height: 38px;
+	float: left;
+
+}
+.index li{
+	float: left;
+    font-size: 12px;
+    padding: 12px 38px;
+    display: block;
+}
+.chanpin{
+	position:relative;
+	height: 590px;
+	padding: 20px;	
+	font-size: 11px;
+	background-color: white;
+}
+#img1{
+	position: absolute;
+	height: 410px;
+	width:410px;
+	border:1px #d0cdc7 solid;
+}
+#img2{
+	border:1px #d0cdc7 solid;
+	position:absolute;
+	z-index: 4;
+	width: 410px;
+	height: 410px;
+	overflow: hidden;
+	display: none;
+	left: 432px;
+}
+#slider {
+    width:100px;
+    height:100px;
+    background: #CCC;
+    opacity:0.4;
+    position:absolute;
+    left:0;
+    top:0;
+    cursor:move;
+    display:none;
+}
+.chanpin p{
+	width: 520px;
+	float: left;
+}
+.small{
+	position: absolute;
+	top:455px;
+	left: 26px;
+}
+.simg{
+	height: 55px;
+	width: 55px;
+	background-color:white;
+	float: left;
+	padding: 2px;
+}
+.hui{
+	color: #676660;
+	margin-top:12px;
+}
+.hei{
+	font-weight: bold;
+	margin: 20px 0px 0px 20px;
+}
+#jinghanliang button{
+	 width: 62px;
+	 height: 28px;
+	 border:none;
+	 background:none;
+	 outline: none;
+}
+#ml{
+	color: #fe6c00;
+	font-size: 15px;
+}
+
+.num{
+	border:1px #cecbc5 solid;
+	height: 27px;
+	width: 25px;
+	margin:0px;
+	background-color: white;
+	cursor: pointer;
+}
+#shuliang input{
+	border:1px #cecbc5 solid;
+	border-width:1px 0px;
+	text-align: center;
+	width: 40px;
+	height: 26px;
+}
+.but button{
+	color: white;
+	width: 148px;
+	text-align: center;
+	background-color: #fe0d4a;
+	border-radius: 4px;
+	border:1px #fe0d4a solid;
+	margin: 10px 0px 0px 25px;
+	line-height: 42px;
+	font-size: 17px;
+}
+#tankuang{
+	width: 100%;
+	height:200%;
+	z-index: 5;
+	background-color: rgba(208,205,205,0.5);
+	position:absolute; 
+	display: none;
+}
+#kuang{
+	width: 400px;
+	height:165px;
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	border:2px #aca9d3 solid;
+	background-color:white;
+	padding-bottom: 30px;
+}
+.medium{
+	width: 1180px;
+	height: 183px;
+	margin: 0 auto;
+	background: #f8f7f6;
+}
+.left2{
+	float: left;
+	height: 183px;
+	width: 170px;
+}
+.medium2{
+	width: 800px;
+	height: 183px;
+	float: left;
+}
+.right2{
+	height: 183px;
+	width: 205px;
+	float: left;
+	text-align: center;
+	padding-top: 28px; 
+}
+.medium ul{
+	margin-top: 18px;
+	float: left;
+	margin-left: 64px;
+}
+.medium p{
+	font-size: 16px;
+}
+.medium a{
+	color: #7d7b75;
+}
+.medium li{
+	margin-top: 12px;
+	font-size: 12px;
+}
+.down{
+	margin: 15px;
+	height:15px;
+	width: 662px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.down ul {
+    margin-top: 10px;
+}
+.down li{
+	float: left;
+    font-size: 12px;
+    padding: 0 12px;
+    border-right: 1px solid #ebe7e7;
+}
+.down ul a{
+	color: #666560;
+}
