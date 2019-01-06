@@ -7,7 +7,7 @@ function hanliang(that){
 		that.parentNode.children[i].style.background="none";
 		that.parentNode.children[i].style.border="none";
 	}
-	that.style.background="url(img/duigou.png) no-repeat right bottom";
+	that.style.background="url(duigou.png) no-repeat right bottom";
 	that.style.border="1px #fe0d4a solid";
 	ml.innerHTML=' "'+that.value+'"';
 }
@@ -54,14 +54,14 @@ window.onload=function(){
 	simg[0].onmouseover = function () {
 		simg[1].style.background='white';
 		simg[0].style.background ='#fe6c00';
-		bimg.src='img/pp0.jpeg';
-		Bimg.src='img/pp0.jpeg';
+		bimg.src='pp0.jpeg';
+		Bimg.src='pp0.jpeg';
 	}
 	simg[1].onmouseover = function () {
 		simg[0].style.background='white';
 		simg[1].style.background ='#fe6c00';
-		bimg.src='img/pp1.jpeg';
-		Bimg.src='img/pp1.jpeg';
+		bimg.src='pp1.jpeg';
+		Bimg.src='pp1.jpeg';
 	}
 	var buynum=document.getElementById("buynum");
 	var num=document.getElementsByClassName('num');
